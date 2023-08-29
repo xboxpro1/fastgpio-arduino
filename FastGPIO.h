@@ -161,6 +161,8 @@ namespace FastGPIO
         _FG_PIN(B, 3),
         _FG_PIN(B, 4),
         _FG_PIN(B, 5),
+        _FG_PIN(B, 6),
+        _FG_PIN(B, 7),
         _FG_PIN(C, 0),
         _FG_PIN(C, 1),
         _FG_PIN(C, 2),
@@ -185,14 +187,16 @@ namespace FastGPIO
 #define IO_B3 11
 #define IO_B4 12
 #define IO_B5 13
+#define IO_B6 20
+#define IO_B7 21
 #define IO_C0 14
 #define IO_C1 15
 #define IO_C2 16
 #define IO_C3 17
 #define IO_C4 18
 #define IO_C5 19
-#define IO_C6 20
-#define IO_NONE 21
+#define IO_C6 22
+#define IO_NONE 23
 
 #elif defined(__AVR_ATmega16U4__) || defined(__AVR_ATmega32U4__)
 
