@@ -103,16 +103,18 @@ namespace FastGPIO
         _FG_PIN(B, 3),
         _FG_PIN(B, 4),
         _FG_PIN(B, 5),
+        _FG_PIN(B, 6),
+        _FG_PIN(B, 7),
         _FG_PIN(C, 0),
         _FG_PIN(C, 1),
         _FG_PIN(C, 2),
         _FG_PIN(C, 3),
         _FG_PIN(C, 4),
         _FG_PIN(C, 5),
-        _FG_PIN(E, 2),
-        _FG_PIN(E, 3),
         _FG_PIN(E, 0),
         _FG_PIN(E, 1),
+        _FG_PIN(E, 2),
+        _FG_PIN(E, 3),
         _FG_PIN(C, 6), // RESET
         _FG_PIN(C, 7), // Null pin (IO_NONE)
     };
@@ -131,18 +133,20 @@ namespace FastGPIO
 #define IO_B3 11
 #define IO_B4 12
 #define IO_B5 13
+#define IO_B6 20
+#define IO_B7 21
 #define IO_C0 14
 #define IO_C1 15
 #define IO_C2 16
 #define IO_C3 17
 #define IO_C4 18
 #define IO_C5 19
-#define IO_E2 20
-#define IO_E3 21
-#define IO_E0 22
-#define IO_E1 23
-#define IO_C6 24
-#define IO_NONE 25
+#define IO_E0 23
+#define IO_E1 24
+#define IO_E2 25
+#define IO_E3 26
+#define IO_C6 22
+#define IO_NONE 27
 
 #elif defined(__AVR_ATmega8__) || (__AVR_ATmega48__) || (__AVR_ATmega48P__) || (__AVR_ATmega88__) || (__AVR_ATmega88P__) || (__AVR_ATmega168__) || defined(__AVR_ATmega168P__) || defined(__AVR_ATmega328__) || defined(__AVR_ATmega328P__)
 
